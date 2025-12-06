@@ -11,7 +11,7 @@ test('divide throws error on zero division', () => {
   expect(() => calculator.divide(5, 0)).toThrow('Division by zero');
 });
 
-test('impurte function test (constrast)', () => {
+test('impure function test (constrast)', () => {
   const result1 = calculator.getRandomNumber();
   const result2 = calculator.getRandomNumber();
   // Note: This test might fail randomly!
